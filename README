@@ -1,0 +1,25 @@
+vim-icon-updater by dbbolton -------------------------------------------------
+
+These icons are based on "Tango Miscs" by "tuziibanez" on deviantART
+    http://tuziibanez.deviantart.com/art/Tango-Miscs-50664382
+
+No copyright info is provided, so general Tango Terms of Use are assumed
+    http://tango.freedesktop.org/Frequently_Asked_Questions#Terms_of_Use.3F
+
+The shell script file is entirely my own work, and I release in under the GPL
+    http://www.gnu.org/licenses/gpl.html
+
+
+CONFIGURATION ----------------------------------------------------------------
+
+Default settings:
+prefix = /usr
+pixmaps dir = /usr/share/pixmaps
+hicolor icon theme dir = /usr/share/icons/hicolor
+
+Edit these as needed.
+
+
+USAGE ------------------------------------------------------------------------
+% su -c 'chmod +x vim-icon-updater; ./vim-icon-updater'
+

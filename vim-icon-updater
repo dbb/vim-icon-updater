@@ -1,0 +1,21 @@
+#!/bin/bash
+
+PREFIX="/usr"
+HICO="${PREFIX}/share/icons/hicolor"
+PIXM="${PREFIX}/share/pixmaps"
+
+for sz in 16 32; do
+    cp -iv "vim_$sz.xpm" "$PIXM/vim-$sz.xpm"
+done
+
+cp -i 'vim.svg' "$PIXM/vim.svg"
+
+for targ in vim gvim; do
+    ln -s "$PIXM/vim.svg" "$HICO/scalable/apps/$targ.svg"
+done
+
+for sz in 16 24 32 48; do
+    cp -iv "vim_$sz.png" "$HICO/${sz}x$sz/apps/vim.png"
+    cp -iv "vim_$sz.png" "$HICO/${sz}x$sz/apps/gvim.png"
+done
+
