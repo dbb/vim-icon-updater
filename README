@@ -13,13 +13,13 @@ The shell script file is entirely my own work, and I release in under the GPL
 CONFIGURATION ----------------------------------------------------------------
 
 Default settings:
-prefix = /usr
-pixmaps dir = /usr/share/pixmaps
-hicolor icon theme dir = /usr/share/icons/hicolor
+prefix = $HOME/.local
+pixmaps dir = $HOME/.local/share/pixmaps
+hicolor icon theme dir = $HOME/.local/share/icons/hicolor
 
 Edit these as needed.
 
 
 USAGE ------------------------------------------------------------------------
-% su -c 'chmod +x vim-icon-updater; ./vim-icon-updater'
+% bash vim-icon-updater
 
